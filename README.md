@@ -5,7 +5,7 @@
 * Xây dựng một hệ thống đo và hiển thị cường độ ánh sáng theo thời gian thực. Cho phép điều chỉnh hướng thiết bị thủ công (hoặc tự động) theo nguồn sáng mạnh nhất.
 * Vấn đề: Cần cơ chế tự động điều hướng và theo dõi nguồn sáng, giúp tăng hiệu quả thu năng lượng.
 
-* Phần cứng bao gồm: WEMOS D1 R32, cảm biến ánh sáng LDR, servo SG90, một số linh kiện khác
+* Phần cứng bao gồm: WEMOS D1 R32, cảm biến ánh sáng LDR, servo SG90, một số linh kiện khác.
 Sử dụng MQTT làm giao thức trao đổi dữ liệu qua broker online. 
 Sử dụng Node-RED, Dashboard để làm bảng theo dõi và điều khiển từ máy tính, điện thoại thông minh.
 Viết mã trên nền tảng PlatformIO/Arduino.
